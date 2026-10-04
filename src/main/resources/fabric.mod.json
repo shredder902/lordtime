@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "lordtime",
+  "version": "${version}",
+  "name": "Lord Time",
+  "description": "Лорд Тайм: пассивное замедление и активная остановка времени.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.example.lordtime.LordTime"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
